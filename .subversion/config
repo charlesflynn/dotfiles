@@ -1,0 +1,5 @@
+[auth]
+password-stores = keychain gnome-keyring
+
+[helpers]
+editor-cmd = vi

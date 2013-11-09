@@ -1,0 +1,6 @@
+--color
+--type-set=sls=.sls
+--type-set=pig=.pig
+--type-set=asciidoc=.asc
+--type-set=puppet=.pp
+--type-set=rust=.rs

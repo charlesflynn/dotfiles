@@ -1,0 +1,6 @@
+set show-all-if-ambiguous on
+set match-hidden-files off
+set completion-query-items -1
+set skip-completed-text on
+set completion-ignore-case on
+set echo-control-characters off
