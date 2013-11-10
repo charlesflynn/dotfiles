@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 #
 #   http://tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html
 #

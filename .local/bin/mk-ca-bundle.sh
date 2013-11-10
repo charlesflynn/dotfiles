@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 
 DOTLOCAL=$HOME/.local
 wget --no-check-certificate -O - https://raw.github.com/bagder/curl/master/lib/mk-ca-bundle.pl | sed -e '/^use LWP/d' > $DOTLOCAL/lib/mr/mk-ca-bundle.pl

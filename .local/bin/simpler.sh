@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/bin/sh
 # Print four lines showing blocks of colors: 0-7 | 0-7bold | 8-15 | 8-15bold
 perl -CADS -lwe '
 my $block = shift || (chr(0x2588) x 3);
