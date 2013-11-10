@@ -37,7 +37,7 @@ shopt -s progcomp
 
 if [[ -d $HOME/.bashrc.d ]]; then
     for config in "$HOME"/.bashrc.d/*; do
-        [[ -f $config ]] && source "$config"
+        [[ -x $config ]] && source "$config"
     done
     unset -v config
 fi
