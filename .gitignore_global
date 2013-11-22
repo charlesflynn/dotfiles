@@ -31,6 +31,8 @@
 /.lesshst
 /local/
 /.local/share/
+/.local/srv/www/
+/.local/var/
 /.m2/
 /.mozilla/
 /.node-gyp/
