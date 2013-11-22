@@ -1,7 +1,13 @@
-# Load RVM into a shell session *as a function*
+# ruby
 
-rvm_path="$HOME/local/opt/rvm"
+rvm_path="$HOME/.rvm"
+GEM_HOME=$HOME/.local/lib/ruby/1.9.1
 
-[[ -s "$rvm_path/scripts/rvm" ]] && source "$rvm_path/scripts/rvm"
-
-unset rvm_path
+if [ -s "$rvm_path/scripts/rvm" ]; then
+    source "$HOME/.rvm/scripts/rvm" 
+    export PATH="$rvm_path/bin:$PATH"
+    unset rvm_path
+elif [ -d $GEM_HOME/bin ]; then
+    export PATH="$PATH:$GEM_HOME/bin"
+    export GEM_HOME
+fi
