@@ -1,7 +1,7 @@
 # ruby
 
 rvm_path="$HOME/.rvm"
-GEM_HOME=$HOME/.local/lib/ruby/1.9.1
+GEM_HOME=$HOME/.local/lib/ruby/gems
 
 if [ -s "$rvm_path/scripts/rvm" ]; then
     source "$HOME/.rvm/scripts/rvm" 
