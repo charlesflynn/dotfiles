@@ -1,0 +1,13 @@
+#  What is the name of the VM exactly as it appears in the VirtualBox control
+#  panel? This is the 'name' and the 'long name' of the VM.
+#
+#  Does 'name' contain spaces or other special characters? If so, you must
+#  make up some other value for 'name' that doesn't have spaces.
+VM_NAME="my_vm"
+#
+#  What user owns the virtual machine?
+VM_OWNER="@USER@"
+#
+#  Which stop command? "hibernate" or "powerbutton"
+#  Note that powerbutton is the default and does not need to be defined here
+#VM_STOP=hibernate
