@@ -1,3 +1,0 @@
-#!/bin/bash
-
-cygcheck -c -d | cut -f 1 -d ' '

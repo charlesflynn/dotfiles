@@ -4,3 +4,4 @@
 --type-set=asciidoc=.asc
 --type-set=puppet=.pp
 --type-set=rust=.rs
+--type-set=powershell=.ps1

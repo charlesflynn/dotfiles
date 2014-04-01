@@ -1,3 +1,4 @@
 # work environment setup
 
-[ -r $HOME/.workenv ] && source $HOME/.workenv
+command -v workenv.sh >/dev/null || return
+source $(command -v workenv.sh)

@@ -4,10 +4,7 @@
 /.bash_history
 /.cache/
 /.chef/
-/.config/configstore/
-/.config/gnome-control-center/
-/.config/gtk-2.0/
-/.config/vcsh/
+/.config/
 /.dbus/
 /.directory
 /.dmrc
@@ -31,9 +28,6 @@
 /.k5login
 /.keychain/
 /.lesshst
-/.local/share/
-/.local/srv/www/
-/.local/var/
 /.m2/
 /.mozilla/
 /.node-gyp/
@@ -43,6 +37,7 @@
 /.pip/
 /.profile
 /.pulse/
+/.pdfsam/
 /.pulse-cookie
 /.recently-used.xbel
 /.rnd
